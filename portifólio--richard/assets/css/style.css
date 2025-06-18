@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:90%; 
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo a{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+    text-decoration: none;
+}
+.logoo{
+    width: 28px;
+}
+.logo h1{
+    font-family:"Roboto";
+    color: #445964;
+}
+
+.sobre{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.sobre ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 80px;
+}
+.sobre a{
+    font-family: "Libre Baskerville";
+    color: #445964;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+.sobre a:hover{
+    background-color: #263138;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.header--desc--foto{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desc{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.desc p{
+    font-size: 16px;
+    font-family: "Libre Baskerville";
+    color: #445964;
+    font-weight: 600;
+}
+.desc h2{
+    font-size: 40px;
+    font-family: "Roboto"  ;
+    color: #445964;
+    font-weight: 900;
+}
+button{
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #263138;
+    cursor: pointer;
+}
+/* Fim */
+
+
+
+.hard--skils{
+    height: 700px;
+    width: 100%;
+}
+
+.nome--e--foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.richard{
+    width: 13rem;
+}
+.nome--e--foto h1{
+    font-family:"Roboto";
+    color: #445964;
+    font-size: 50px;
+}
+.nome--e--foto strong{
+    color: #263138;
+    font-family: "Roboto";
+}
+.nome--e--foto p {
+    font-family:"Roboto";
+    color: #445964;
+    font-size: 16px;
+}
+
+.hard{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hard h1{
+    font-family:"Roboto";
+    color:#263138;
+    font-size: 50px;
+}
+.hard--skils b {
+     color: #445964;
+    font-family: "Roboto";
+}
+.skils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.ima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 150px;
+    max-width: 700px;
+}
